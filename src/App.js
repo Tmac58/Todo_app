@@ -1,19 +1,17 @@
-import React from 'react';
-import './App.css';
-import AddTodo from './components/AddToDo';
-import TodoList from './components/TodoList';
-import VisibilityFilters from './components/VisibilityFilters';
+import React from "react";
+import AddTodo from "./components/AddTodo";
+import TodoList from "./components/TodoList";
+import VisibilityFilters from "./components/VisibilityFilters";
+import "./styles.css";
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <h1>Todo List - WITH REDUX!!</h1>
-      <h2>Take one with React + Redux</h2>
+    <div className="todo-app">
+      <h1>Todo List - Redux Edition</h1>
+      <h2>QUACK QUACK!!</h2>
       <AddTodo />
       <TodoList />
       <VisibilityFilters />
     </div>
   );
 }
-
-export default App;
